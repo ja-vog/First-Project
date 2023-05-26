@@ -5,6 +5,8 @@
  * then off for one second, repeatedly.
  */
 #include "Arduino.h"
+#include "DMXSerial.h"
+#include "TM1637Display.h"
 
 // Set LED_BUILTIN if it is not defined by Arduino framework
 // #define LED_BUILTIN 13
